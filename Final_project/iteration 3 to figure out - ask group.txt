@@ -1,0 +1,24 @@
+Iteration 3 Pieces to figure out.
+
+Integrating a chooser?
+
+Using datum from two seperate tables.
+
+graph:
+x axis = rank: 1-81
+y axis = Score: 0 - max rounded up.
+
+Rank from one table
+Score from another.
+
+Each point is a clickable object that brings up 
+a large circle with information on the country
+Name, Rank, Score
+
+scrolled over the points get a little bigger?
+
+click out of circle to go back. 
+pop/push method?
+
+figure out a colorscheme for it.
+

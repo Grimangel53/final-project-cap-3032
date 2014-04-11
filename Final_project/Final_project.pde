@@ -1,19 +1,21 @@
 FullGraph visual;
+Axes myAxes;
 
 void setup() {
-  size(540,580);
-  visual = new FullGraph(2);
+  size(500,500);
+  visual = new FullGraph();
+   myAxes = new Axes();
 }
 
 void draw(){
     background(255);
-    visual.displayFullGraph();
+    myAxes.display();
 }
 
 
 
 void mouseClicked(){
-  visual.displayFullGraph();
+  
 }
 
 //INTEGRATE Pfont. 
