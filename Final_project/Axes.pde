@@ -5,14 +5,14 @@ class Axes{
 
   Axes() {
     w = width - 2 * inset;
-    spacing = w / 64;
+    spacing = w / 81;
   }
 
   void display() {
     stroke(0);
     line(inset, inset, inset, height-inset);
     line(inset, height-inset, width-inset, height-inset);
-    for (int i = 1; i < 65; i++) {
+    for (int i = 1; i < 82; i++) {
       line(i * spacing + inset, height-inset-3, i * spacing + inset, height-inset+3);
     }
     displayLabels();

@@ -1,0 +1,5 @@
+There have been many changes since Iteration 3
+-the graph is now the right size
+-the points appear on the graph, in their correct places
+-data is being pumped in to place the points on the correct placements.
+-the graph is bigger

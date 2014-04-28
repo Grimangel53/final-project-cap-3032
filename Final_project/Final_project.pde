@@ -10,15 +10,32 @@ void setup() {
 void draw(){
     background(255);
     myAxes.display();
+    visual.display();
+    
 }
 
 
 
-void mouseClicked(){
-  
+void keyPressed(){
+  if(keyPressed){
+   if(key == '1'){
+    visual.setGraph(1);
+    visual.display();
+   } else if(key == '2'){
+    visual.setGraph(2);
+    visual.display();
+   } else if(key == '3'){
+    visual.setGraph(3);
+    visual.display();
+   } else if(key == '4'){
+    visual.setGraph(4);
+    visual.display();
+   } else if(key == '5'){
+     visual.setGraph(5);
+     visual.display();
+   }
+  }
 }
 
-//INTEGRATE Pfont. 
-//THIS IS FAIRLY IMPORTANT FOR THE DATA VISUALIZATION.
-// Also integrate the squares.
+
 
